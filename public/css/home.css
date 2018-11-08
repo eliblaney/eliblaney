@@ -1,0 +1,207 @@
+@font-face {
+	font-family: "Foreplay";
+	src: url('../fonts/Foreplay.otf');
+}
+
+@font-face {
+	font-family: "Farewell Angelina Bold";
+	src: url('../fonts/angelina_display_bold.otf');
+}
+
+@font-face {
+	font-family: "Claxton";
+	src: url('../fonts/Claxton.otf');
+}
+
+.scrollspy-section {
+	position: relative;
+	height: 60vh;
+}
+
+#home .background {
+	background: url('../images/iceland.png');
+	background-size: cover;
+	background-attachment: fixed;
+	opacity: 0.8;
+}
+
+#services .background {
+	background: #333;
+}
+
+#get-in-touch .background {
+	background: url('../images/ravine.png');
+	background-size: cover;
+	opacity: 0.9;
+}
+
+#services {
+	color: #fff;
+}
+
+#services .content {
+	top: 0;
+}
+
+#support .background {
+	background: url('../images/mountain.png');
+	background-size: cover;
+	opacity: 0.9;
+}
+
+.scrollspy-section .background {
+	position: relative;
+	height: 100%;
+	width: 110%;
+	left: -9%;
+	filter: blur(5px);
+}
+
+.scrollspy-section .content {
+	width: 100%;
+	position: absolute;
+	top: 100px;
+}
+
+#support .content, #get-in-touch .content {
+	top: 0;
+}
+
+#get-in-touch {
+	background-color: #123;
+	color: #fff;
+}
+
+.animate-start {
+	transform: translateY(150px);
+	animation: animate-start 0.6s ease forwards, opacity 0.8s ease forwards;
+}
+
+.animate-start:nth-child(even) {
+	animation-duration: 0.8s;
+}
+
+@keyframes animate-start {
+	to { transform: translateY(0); }
+}
+
+@keyframes opacity {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+}
+
+.disable-animation {
+	transform: translateY(0);
+	opacity: 1;
+	animation: none;
+}
+
+.delayed-animation {
+	animation-delay: 0.3s;
+	opacity: 0;
+}
+
+.box {
+	display: inline-block;
+	margin: auto 50px;
+	margin-top: 50px;
+	padding: 10px;
+	text-align: center;
+	width: 250px;
+	height: 300px;
+	border: 1px solid #eee;
+	outline-style: solid;
+	box-shadow: 5px 5px 10px grey;
+	background-color: rgba(200, 200, 200, 0.2);
+}
+
+.box h1.absolute-icon {
+	position: absolute;
+}
+
+.box .description {
+	padding: 10px;
+	padding-top: 50px;
+	font-family: "Nunito", Arial, Verdana;
+	font-size: 1.1em;
+}
+
+.center {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1.title {
+	width: 100%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	font-size: 10em;
+	font-family: "Foreplay";
+}
+
+h2.subtitle {
+	font-family: "Farewell Angelina Bold";
+	font-style: italic;
+}
+
+.section-title {
+	margin-top: 50px;
+	padding-top: 0;
+	top: 0;
+	display: block;
+	font-size: 2.5em;
+	font-family: "Claxton";
+}
+
+.section-title:after {
+	content: "";
+	background: #fff;
+	position: absolute;
+	top: 90px;
+	left: 35%;
+	width: 30%;
+	height: 3px;
+}
+
+div.support {
+	vertical-align: top;
+	display: inline-block;
+	text-align: center;
+}
+
+div.support > img {
+	height: 100px;
+	width: auto;
+	margin: 50px;
+}
+
+div.support > .caption {
+	display: block;
+	font-size: 1.5em;
+	margin-top: -40px;
+	font-family: "Claxton";
+}
+
+p.support-continue {
+	margin-top: 75px;
+	font-size: 2em;
+	font-style: italic;
+	font-family: "Claxton";
+}
+
+form {
+	width: 50%;
+	margin: 0 auto;
+}
+
+form label, form button {
+	font-family: "Claxton";
+	font-size: 1.5em;
+	font-weight: initial;
+}
+
+.form-group {
+	padding-top: 50px;
+}
