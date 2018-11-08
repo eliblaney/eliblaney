@@ -52,7 +52,7 @@
 		@endif
 		<div class="footer">
 			<p>Copyright &copy; 2018 Pro Web Development. All rights reserved.</p>
-			<p>View this code on <a href="#">GitHub!</a></p>
+			<p>View this code on <a href="https://github.com/DonkeyCOre/eliblaney">GitHub!</a></p>
 		</div>
 
 		@yield('body-scripts')
