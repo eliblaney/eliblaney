@@ -2,7 +2,7 @@
 
 https://eliblaney.com
 
-I am a senior at Creighton University and a full stack developer.
+I am a medical student at Creighton University and a full stack developer.
 
 Check out my website and repositories, and don't hesitate to [reach out](mailto:eliblaney@gmail.com)!
 
