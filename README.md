@@ -1,5 +1,3 @@
-# Eli Blaney
+# Eli Blaney, MD
 
-https://eliblaney.com
-
-I am a medical student at Creighton University and a full stack developer.
+Resident neurologist at Ohio State University Wexner Medical Center by day, programmer by night.
